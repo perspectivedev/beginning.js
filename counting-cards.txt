@@ -1,0 +1,15 @@
+var count = 0;
+
+function cc(card) {
+  // Only change code below this line
+if(card >= 2 && card <= 6){
+  count++;
+}else if(card >= 7 && card <= 9) { 
+}else if(card === 10 || card === 'A' || card === 'J' || card === 'Q' || card === 'K'){
+  count--;
+}
+console.log(count + (count > 0 ? " Bet" : " Hold"))
+return count + (count > 0 ? " Bet" : " Hold");
+  // Only change code above this line
+}
+cc(7); cc(8); cc(9);

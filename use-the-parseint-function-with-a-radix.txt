@@ -1,0 +1,7 @@
+function convertToInteger(str) {
+let int = parseInt(str, 2);
+console.log( int = parseInt(str, 2))
+return int;
+}
+
+convertToInteger("10011");
